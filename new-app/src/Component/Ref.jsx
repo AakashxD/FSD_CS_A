@@ -10,7 +10,8 @@ const Ref = () => {
 //         if(inputvalue==""){
 //               setCount(0);
 //         }
-//    },[inputvalue])
+//    },[inputvalue]);
+
   return (
     <div>Ref
         <input type="text" name='val' value={inputvalue} onChange={(e)=>{
